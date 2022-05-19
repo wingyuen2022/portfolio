@@ -2,3 +2,8 @@ body {
 	font-family: "Audiowide", sans-serif;
 	/*background-image: url('../images/bg.png');*/
 }
+
+.page-footer {
+    background: #0dcaf0;
+    color: white;
+}
