@@ -1,9 +1,18 @@
 body {
 	font-family: "Audiowide", sans-serif;
-	/*background-image: url('../images/bg.png');*/
+	background-color: white;
 }
 
 .page-footer {
     background: #0dcaf0;
     color: white;
+}
+
+.skill-category-name {
+    font-size: 200%;
+}
+
+.skill-name {
+    color: #222851;
+    font-size: 150%;
 }
