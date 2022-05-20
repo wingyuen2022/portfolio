@@ -16,3 +16,7 @@ body {
     color: #222851;
     font-size: 150%;
 }
+
+.skill-name > a:link {
+    color: #222851;
+}
