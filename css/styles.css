@@ -12,6 +12,11 @@ body {
     color: white;
 }
 
+.card-center {
+    align-items: center!important;
+    justify-content: center!important;
+}
+
 .skill-category-name {
     font-size: 200%;
 }
@@ -23,4 +28,22 @@ body {
 
 .skill-name > a:link {
     color: #222851;
+}
+
+.job-title {
+    color: #ffffff;
+}
+
+.experience-first-line {
+    font-size: 200%;
+}
+
+.experience-second-line {
+    font-size: 100%;
+}
+
+.experience-remark {
+    padding-top: 0.5em;
+    font-size: 100%;
+    color: #808080;
 }
