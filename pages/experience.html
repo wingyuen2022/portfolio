@@ -51,7 +51,7 @@
     <p>
       <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1"
         aria-expanded="false" aria-controls="collapse1">
-        <div class="job-title">May 2022 - Present</div>
+        <div class="button-text">May 2022 - Present</div>
       </button>
     </p>
     <div class="collapse" id="collapse1">
@@ -77,7 +77,7 @@
     <p>
       <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse2"
         aria-expanded="false" aria-controls="collapse2">
-        <div class="job-title">Jul 2021 - Present</div>
+        <div class="button-text">Jul 2021 - Present</div>
       </button>
     </p>
     <div class="collapse" id="collapse2">
@@ -118,7 +118,7 @@
     <p>
       <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3"
         aria-expanded="false" aria-controls="collapse3">
-        <div class="job-title">Mar 2017 - Jun 2021</div>
+        <div class="button-text">Mar 2017 - Jun 2021</div>
       </button>
     </p>
     <div class="collapse" id="collapse3">
@@ -227,7 +227,7 @@
     <p>
       <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse4"
         aria-expanded="false" aria-controls="collapse4">
-        <div class="job-title">Jan 2014 - Feb 2017</div>
+        <div class="button-text">Jan 2014 - Feb 2017</div>
       </button>
     </p>
     <div class="collapse" id="collapse4">
@@ -317,14 +317,14 @@
     <p>
       <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse5"
         aria-expanded="false" aria-controls="collapse5">
-        <div class="job-title">May 2012 - Apr 2013</div>
+        <div class="button-text">May 2012 - Apr 2013</div>
       </button>
     </p>
     <div class="collapse" id="collapse5">
       <div class="card card-body border-0">
         <div class="row">
           <div class="col-sm-2">
-            <a href="https://www.team-c.com/" target="_blank">
+            <a href="http://guthy-renker.com" target="_blank">
               <img src="../images/guthy-renker.jpg" alt="Guthy-Renker Australia Proprietary Limited" title="Guthy-Renker Australia Proprietary Limited" width="120px"></img>
             </a>
           </div>
@@ -346,7 +346,7 @@
     <p>
       <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse6"
         aria-expanded="false" aria-controls="collapse6">
-        <div class="job-title">Nov 2011 - Feb 2012</div>
+        <div class="button-text">Nov 2011 - Feb 2012</div>
       </button>
     </p>
     <div class="collapse" id="collapse6">
@@ -385,5 +385,10 @@
 <footer class="page-footer font-small darken-3 sticky-bottom">
   <div class="footer-copyright text-center py-3">Wing Yuen 2022 👽</div>
 </footer>
+<script>
+  jQuery('button').click( function(e) {
+    jQuery('.collapse').collapse('hide');
+  });
+</script>
 
 </html>
