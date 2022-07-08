@@ -97,3 +97,4 @@ $("[id^='crystalreport']").html(`<div class="skill-name">Crystal Report</div>`);
 $("[id^='vba']").html(`<div class="skill-name">VBA</div>`);
 $("[id^='sql']").html(`<div class="skill-name">SQL</div>`);
 $("[id^='access']").html(`<div class="skill-name">Access</div>`);
+$("[id^='netlify']").html(`<div class="skill-name">Netlify</div>`);
