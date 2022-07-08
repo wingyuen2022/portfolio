@@ -1,6 +1,6 @@
 body {
 	font-family: "Audiowide", sans-serif;
-	background-color: white;
+	text-color: white;
 }
 
 .nav-bar-header {
@@ -21,9 +21,18 @@ body {
     font-size: 200%;
 }
 
+.skill-logo {
+    width: 80px;
+}
+
+.skill-row {
+    width: 800px;
+}
+
 .skill-name {
     color: #222851;
-    font-size: 150%;
+    font-size: 90%;
+    font-weight: bold;
 }
 
 .skill-name > a:link {
@@ -34,12 +43,18 @@ body {
     color: #ffffff;
 }
 
+.experience-logo {
+    width: 50px;
+}
+
 .experience-first-line {
     font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 1em;
 }
 
 .experience-second-line {
-    font-size: 100%;
+    font-size: 150%;
 }
 
 .experience-remark {
@@ -47,3 +62,18 @@ body {
     font-size: 100%;
     color: #808080;
 }
+
+.project-logo {
+    width: 50px;
+}
+
+/*
+.row-skill {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}*/
