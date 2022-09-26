@@ -29,7 +29,8 @@ const getToday = () => {
 };
 
 document.getElementById("2022-now-length").innerHTML = getLength('2022-05-16', getToday());
-document.getElementById("2019-now-length").innerHTML = getLength('2019-12-01', getToday());
+document.getElementById("2021-now-length").innerHTML = getLength('2021-07-01', getToday());
+document.getElementById("2019-2021-length").innerHTML = getLength('2019-12-01', '2021-06-30');
 document.getElementById("2017-2019-length").innerHTML = getLength('2017-08-01', '2019-11-30');
 document.getElementById("2017-2017-length").innerHTML = getLength('2017-03-26', '2017-07-31');
 
