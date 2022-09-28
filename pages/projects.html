@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects - Wing Yuen</title>
   <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://uploads-ssl.webflow.com/618d068d04660411b63872f6/61a8a2935d913427d31de235_favicon.png"
     rel="shortcut icon" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,28 +32,28 @@
   </header>
 
   <div class="pos-f-t sticky-top">
-    <nav class="navbar navbar-dark bg-info">
+    <nav class="navbar navbar-custom">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="nav-bar-header">Wing Yuen</span>
+        <span class="robot-font nav-bar-header">Wing Yuen</span>
       </button>
     </nav>
     <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-info p-1">
-        <a href="../index.html" class="btn btn-light" role="button">Home</a>
-        <a href="./about.html" class="btn btn-light" role="button">About</a>
-        <a href="./skills.html" class="btn btn-light" role="button">Skills</a>
-        <a href="./experience.html" class="btn btn-light" role="button">Experience</a>
-        <a href="./projects.html" class="btn btn-light" role="button">Projects</a>
-        <a href="./showcase.html" class="btn btn-light" role="button">Showcase</a>
-        <a href="./contact.html" class="btn btn-light" role="button">Contact</a>
+      <div class="navbar-custom p-1">
+        <a href="../index.html" class="btn btn-light robot-font" role="button">Home</a>
+        <a href="./about.html" class="btn btn-light robot-font" role="button">About</a>
+        <a href="./skills.html" class="btn btn-light robot-font" role="button">Skills</a>
+        <a href="./experience.html" class="btn btn-light robot-font" role="button">Experience</a>
+        <a href="./projects.html" class="btn btn-light robot-font" role="button">Projects</a>
+        <a href="./showcase.html" class="btn btn-light robot-font" role="button">Showcase</a>
+        <a href="./contact.html" class="btn btn-light robot-font" role="button">Contact</a>
       </div>
     </div>
   </div>
 
   <main class="container">
     <div id="top">
-      <p class="display-5">Projects</p>
+      <p class="robot-font highlighted-title">Projects</p>
       <ul>
         <li><a href="#project1">Lap 1 - Community Journaling</a></li>
         <li><a href="#project2">Lap 2 - Habit Tracker</a></li>
@@ -60,7 +63,7 @@
     </div>
     <br>
     <div>
-      <p class="display-5">Remark:</p>
+      <p class="robot-font highlighted-title">Remark:</p>
       <ul>
         <li>These projects are group project (team of 4) during I received 13-week intensive training at Futureproof.</li>
         <li>Each project is given a list of requirements and required to complete in 5 days with a presentation in the last day.</li>
@@ -71,15 +74,20 @@
     <br>
     <div id="project1">
       <br>
-      <p class="display-5">Lap 1 - Community Journaling</p>
+      <p class="robot-font highlighted-title">Lap 1 - Community Journaling</p>
       <div class="card card-body">
-        <p>Final Url: <a href="https://windoge-xp.netlify.app" target="_blank">Windoge XP</a> (6th - 10th Jun 2022)</p>
+        <p class="robot-font">Final Url: <a href="https://windoge-xp.netlify.app" target="_blank">Windoge XP</a></p>
+        <ul>
+          <li>Group project (Team of 4)</li>
+          <li>6th - 10th Jun 2022</li>
+        </ul>
+        <p class="robot-font">Features: </p>
         <ul>
           <li>Create posts, write comments.</li>
           <li>Give emojis.</li>
           <li>Search post by keyword.</li>
         </ul>
-        <p>Our design: </p>
+        <p class="robot-font">Our design: </p>
         <ul>
           <li><a href="https://github.com/SuperBrava/LAP-1-PROJECT-Frontend" target="_blank">Front-end</a></li>
           <ul>
@@ -90,13 +98,13 @@
             <li>Handling data storage</li>
           </ul>
         </ul>
-        <p>My contribution: </p>
+        <p class="robot-font">My contribution: </p>
         <ul>
           <li>20% of my time to Front-end</li>
           <li>80% of my time to Back-end</li>
           <li>Mainly implemented API + read/write to JSON file logic.</li>
         </ul>
-        <p>Technologies used: </p>
+        <p class="robot-font">Technologies used: </p>
         <div class="row">
           <div class="col p-3">
             <div id="css" class="project-logo"></div>
@@ -120,7 +128,7 @@
         <div class="row">
           <div class="col p-3">
             <div class="card card-body">
-              <img src="../images/project1.png" width="800"></img>
+              <img src="../images/project1.png" style="border-radius: 25px;" width="800"></img>
             </div>
           </div>
         </div>
@@ -131,16 +139,21 @@
 
     <div id="project2">
       <br>
-      <p class="display-5">Lap2 - Habit Tracker</p>
+      <p class="robot-font highlighted-title">Lap2 - Habit Tracker</p>
       <div class="card card-body">
-        <p>Final Url: <a href="https://thriving-cendol-75fec6.netlify.app" target="_blank">Energize</a> (27th - 1st Jul 2022)</p>
+        <p class="robot-font">Final Url: <a href="https://thriving-cendol-75fec6.netlify.app" target="_blank">Energize</a></p>
+        <ul>
+          <li>Group project (Team of 4)</li>
+          <li>27th - 1st Jul 2022</li>
+        </ul>
+        <p class="robot-font">Features: </p>
         <ul>
           <li>Create, view, update, delete your sport goals.</li>
           <li>Create, view, update, delete your sport workouts(history).</li>
           <li>Create, update your user profile.</li>
           <li>View progress on each of your goals.</li>
         </ul>
-        <p>Our design: </p>
+        <p class="robot-font">Our design: </p>
         <ul>
           <li><a href="https://github.com/fastlearner999/Code_of_Duty_Client" target="_blank">Front-end</a></li>
           <ul>
@@ -152,13 +165,13 @@
             <li>Calculating goal progress</li>
           </ul>
         </ul>
-        <p>My contribution: </p>
+        <p class="robot-font">My contribution: </p>
         <ul>
           <li>40% of my time to Front-end</li>
           <li>60% of my time to Back-end</li>
           <li>Mainly implemented API + back-end logic.</li>
         </ul>
-        <p>Technologies used: </p>
+        <p class="robot-font">Technologies used: </p>
         <div class="row">
           <div class="col p-3">
             <div id="css" class="project-logo"></div>
@@ -205,15 +218,20 @@
 
     <div id="project3">
       <br>
-      <p class="display-5">Lap3 - Online Quiz Game</p>
+      <p class="robot-font highlighted-title">Lap3 - Online Quiz Game</p>
       <div class="card card-body">
-        <p>Final Url: <a href="https://q1-fp.netlify.app/" target="_blank">Q1 - QuizMasters 1</a> (18th - 22th Jul 2022)</p>
+        <p class="robot-font">Final Url: <a href="https://q1-fp.netlify.app/" target="_blank">Q1 - QuizMasters 1</a></p>
+        <ul>
+          <li>Group project (Team of 4)</li>
+          <li>18th - 22th Jul 2022</li>
+        </ul>
+        <p class="robot-font">Features: </p>
         <ul>
           <li>Multiple choices online quiz game.</li>
           <li>Support single play and multi-play. (Up to 4 players)</li>
           <li>The fastest time (Least time) to cross the finish line will be the winner.</li>
         </ul>
-        <p>Our design: </p>
+        <p class="robot-font">Our design: </p>
         <ul>
           <li><a href="https://github.com/theweion/Q1-quiz-game" target="_blank">Front-end</a></li>
           <ul>
@@ -226,13 +244,13 @@
             <li>Handling communication within room</li>
           </ul>
         </ul>
-        <p>My contribution: </p>
+        <p class="robot-font">My contribution: </p>
         <ul>
           <li>60% of my time to Front-end</li>
           <li>40% of my time to Back-end</li>
           <li>Mainly implemented game logic in React + implemented socket io Handling in the back-end</li>
         </ul>
-        <p>Technologies used: </p>
+        <p class="robot-font">Technologies used: </p>
         <div class="row">
           <div class="col p-3">
             <div id="css" class="project-logo"></div>
@@ -295,15 +313,19 @@
 
     <div id="project4">
       <br>
-      <p class="display-5">Lap4 - Camping Planning Application</p>
+      <p class="robot-font highlighted-title">Lap4 - Camping Planning Application</p>
       <div class="card card-body">
-        <p>Final Url: <a href="https://artemis-camping.netlify.app/" target="_blank">Artemis Camping</a> (8th - 12th Aug 2022)</p>
+        <p class="robot-font">Final Url: <a href="https://artemis-camping.netlify.app/" target="_blank">Artemis Camping</a></p>
         <ul>
-          <li></li>
+          <li>Group project (Team of 5)</li>
+          <li>8th - 12th Aug 2022</li>
+        </ul>
+        <p class="robot-font">Features: </p>
+        <ul>
           <li>Plan camping route, budgeting, task assigning, weather forecasting.</li>
           <li>In future version, will support member messaging.</li>
         </ul>
-        <p>Our design: </p>
+        <p class="robot-font">Our design: </p>
         <ul>
           <li><a href="https://github.com/wingyuen2022/artemis-frontend" target="_blank">Front-end</a></li>
           <ul>
@@ -315,13 +337,13 @@
             <li>Handling data storage</li>
           </ul>
         </ul>
-        <p>My contribution: </p>
+        <p class="robot-font">My contribution: </p>
         <ul>
           <li>55% of my time to Front-end</li>
           <li>45% of my time to Back-end</li>
           <li>Mainly coordinated team task + Combined all my teamate's work into one React application + Implemented API</li>
         </ul>
-        <p>Technologies used: </p>
+        <p class="robot-font">Technologies used: </p>
         <div class="row">
           <div class="col p-3">
             <div id="css" class="project-logo"></div>
@@ -370,7 +392,7 @@
 </body>
 
 <footer class="page-footer font-small darken-3 sticky-bottom">
-  <div class="footer-copyright text-center py-3">Wing Yuen 2022</div>
+  <div class="footer-copyright robot-font text-center py-3">Wing Yuen 2022</div>
 </footer>
 <script>
   jQuery('button').click( function(e) {

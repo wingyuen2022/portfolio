@@ -1,14 +1,30 @@
 body {
-	font-family: "Audiowide", sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-color: white;
+}
+
+.robot-font {
+    font-family: "Audiowide", sans-serif;
+}
+
+.highlighted-title {
+    font-size: 250%;
+}
+
+.content-text {
+    font-size: 200%;
 }
 
 .nav-bar-header {
     color: white;
 }
 
+.navbar-custom {
+    background: #222851;
+}
+
 .page-footer {
-    background: #0dcaf0;
+    background: #222851;
     color: white;
 }
 
