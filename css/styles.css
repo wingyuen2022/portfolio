@@ -1,10 +1,25 @@
 body {
 	font-family: 'Roboto Slab', serif;
 	text-color: white;
+    background-image: url("../images/25335_white.jpg");
+    background-size: 100% auto;
 }
 
 .robot-font {
     font-family: "Audiowide", sans-serif;
+}
+
+.footer-1 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 100%;
+}
+
+.image-creadit {
+    font-family: "Audiowide", sans-serif;
+    font-size: 70%;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
 }
 
 .highlighted-title {
@@ -12,7 +27,7 @@ body {
 }
 
 .content-text {
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .highlighted-medium {
@@ -35,6 +50,18 @@ body {
 .card-center {
     align-items: center!important;
     justify-content: center!important;
+}
+
+.about-summary-1st-grid {
+    font-size: 70%;
+}
+
+.about-summary-2nd-grid {
+    font-size: 72%;
+}
+
+.about-summary-3rd-grid {
+    font-size: 100%;
 }
 
 .skill-category-name {
