@@ -45,6 +45,9 @@ body {
 .page-footer {
     background: #222851;
     color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .card-center {
