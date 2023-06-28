@@ -8,7 +8,7 @@ const getLength = (string1, string2) => {
     let yr = "";
     let mon = "";
     if (months >= 12) {
-        yr = Math.round(months/12).toString() + ' year(s) ';
+        yr = Math.floor(months/12).toString() + ' year(s) ';
     }
     if (months%12 != 0) {
         mon = '  ' + (months%12).toString() + ' month(s)';
